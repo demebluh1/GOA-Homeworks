@@ -1,0 +1,46 @@
+/* 
+grid-template-areas არის CSS Grid-ის კუთვნილება,
+რომლითაც ვქმნით გვერდის განლაგებას სახელებით.
+
+ანუ თითოეულ Grid ნაწილს ვარქმევთ სახელს,
+მაგალითად: header, sidebar, main, footer.
+
+ეს გვეხმარება, რომ საიტის სტრუქტურა უფრო მარტივად
+და გასაგებად დავალაგოთ.
+*/
+
+.container {
+    display: grid;
+
+    /* აქ ვქმნით Grid-ის განლაგებას */
+    grid-template-areas:
+        "header header"
+        "sidebar main"
+        "footer footer";
+}
+
+/*
+grid-area გამოიყენება იმისთვის,
+რომ კონკრეტულ ელემენტს მივანიჭოთ ადგილი
+grid-template-areas-ში შექმნილ განლაგებაში.
+
+მაგალითად, თუ ელემენტს მივცემთ grid-area: header;
+ის დაიკავებს იმ ადგილს, სადაც grid-template-areas-ში
+წერია header.
+*/
+
+.header {
+    grid-area: header;
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.main {
+    grid-area: main;
+}
+
+.footer {
+    grid-area: footer;
+}

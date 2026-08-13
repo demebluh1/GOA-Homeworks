@@ -1,0 +1,17 @@
+/* 1) position: absolute
+ელემენტი გამოაქვს ჩვეულებრივი flow-დან და პოზიციონირდება ყველაზე ახლო parent-ზე, რომელსაც აქვს position (relative/absolute/fixed/sticky) */
+
+/* 2) position: relative
+ელემენტი რჩება თავის ადგილას, მაგრამ შეიძლება გადაადგილდეს top/right/bottom/left-ით */
+
+/* 3) position: fixed
+ელემენტი ფიქსირდება ეკრანზე და არ მოძრაობს scroll-ის დროს */
+
+/* 4) position: sticky
+ელემენტი თავიდან behave-დება როგორც relative, მაგრამ scroll-ის დროს “ეწებება” ეკრანს განსაზღვრულ წერტილზე */
+
+/* 5) position: static
+default მდგომარეობაა — ელემენტი ჩვეულებრივ დოკუმენტის flow-შია და top/right/bottom/left არ მუშაობს */
+
+/* 6) top / right / bottom / left
+ეს თვისებები განსაზღვრავს რამდენით გადაიწევს ელემენტი თავისი საწყისი ან parent პოზიციიდან (position-ის მიხედვით) */

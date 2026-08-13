@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <style>
+        /* პირველი სათაური */
+        h1.title1 {
+            color: darkblue;
+            font-size: 36px;
+            text-align: center;
+        }
+
+        /* მეორე სათაური */
+        h1.title2 {
+            color: darkgreen;
+            font-size: 32px;
+            text-align: left;
+            background-color: lightgray;
+            padding: 10px;
+        }
+
+        /* მესამე სათაური */
+        h1.title3 {
+            color: white;
+            background-color: black;
+            font-size: 40px;
+            font-style: italic;
+            text-align: right;
+            padding: 15px;
+            border: 3px solid gray;
+        }
+
+        /* მეოთხე სათაური */
+        h1.title4 {
+            color: orange;
+            font-size: 30px;
+            text-align: center;
+        }
+    </style>
+    </head>
+    <body>
+        <!-- N1 -->
+        <!-- 
+        Internal CSS:
+        სტილი ამოყვანილია <style> ტეგში, პირდაპირ HTML ფაილის <head> ნაწილში.
+        უპირატესობა: ყველა სტილი ერთ ადგილზეა, კარგი პატარა პროექტებისთვის.
+        ნაკლი: დიდი პროექტებისთვის რთულია მართვა და არ არის გადამუშავებადი.
+    -->
+
+        <!-- 
+        Inline CSS:
+        სტილი დაწერილია პირდაპირ კონკრეტულ HTML ელემენტში style ატრიბუტის საშუალებით.
+        უპირატესობა: სწრაფი და კონკრეტული ელემენტისთვის, დაუყოვნებელი მოქმედება.
+        ნაკლი: არ არის გადამუშავებადი, თუ ბევრ ელემენტს უნდა იგივე სტილი, რთული მართვა.
+    -->
+    <!-- N2 -->
+    
+    <h1 style="text-align: center; color: darkblue;">Inline CSS მაგალითი</h1>
+
+    <p style="color: red; font-size: 18px;">
+        ეს პირველი პარაგრაფია. ტექსტი წითელი და ზომაში 18px.
+    </p>
+
+    <p style="color: green; font-size: 20px; text-align: justify;">
+        ეს მეორე პარაგრაფია. ტექსტი მწვანე, ზომა 20px, ტიპოგრაფია Times New Roman და ტექსტი გასწორებულია justify.
+    </p>
+
+    <p style="color: white; background-color: black; padding: 10px; border: 2px solid gray;">
+        ეს მესამე პარაგრაფია. ტექსტი თეთრი, ფონზე შავი, padding 10px, და გარშემო 2px სქელი ნაცრისფერი საზღვარი.
+    </p>
+
+    <p style="color: orange; font-style: italic; text-align: right;">
+        ეს მეოთხე პარაგრაფია. ტექსტი ნარინჯისფერი, bold, italic და გასწორებულია მარჯვნივ.
+    </p>
+    <!-- N3 -->
+    <h1 title="1">სათაური 1 Internal CSS</h1>
+    <h1 title="2">სათაური 2 Internal CSS</h1>
+    <h1 title="3">სათაური 3 Internal CSS</h1>
+    <h1 title="4">სათაური 4 Internal CSS</h1
+    </body>
+</html>

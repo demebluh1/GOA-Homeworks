@@ -1,0 +1,13 @@
+/* background-image გვეხმარება შემოვიტანოთ ფოტო css-ში */
+/* ხოლო url გვეხმარება ფოტოს ლინკით შემოვიტანოთ ფოტო */
+/* background-repeat არის თვისება რომელიც გვეხმარება უკანა ფონის გამეორების კონტროლისთვის (repeat) ამეორებს (no-repeat) აჩერებს გამეორებას
+ასევე შეგვიძლია y და x ღერძზე გამეორება (repeat-x repeat-y)
+ */
+
+ /* background-size არის თვისება რომელიც გვეხმარება უკანა ფონის ფოტოს ზომის შეცვლაში (contain და cover) */
+
+ body {
+    background-image: url("https://img.freepik.com/free-photo/lavender-field-sunset-near-valensole_268835-3910.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+}

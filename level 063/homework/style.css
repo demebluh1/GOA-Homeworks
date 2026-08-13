@@ -1,0 +1,38 @@
+/* CSS Grid არის განლაგების სისტემა, რომელიც გვეხმარება ელემენტების
+რიგებად და სვეტებად დალაგებაში.
+
+Grid-ს ვიყენებთ მაშინ, როცა გვინდა საიტზე ელემენტები ზუსტად,
+ლამაზად და მოწესრიგებულად განვალაგოთ. */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    grid-template-rows: repeat(2, 170px);
+    gap: 26px;
+}
+
+.box {
+    background-color: #3f3f3f;
+    color: white;
+    border-radius: 9px;
+    font-size: 60px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    font-family: Georgia, serif;
+}

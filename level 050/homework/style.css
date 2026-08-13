@@ -1,0 +1,16 @@
+/* flexbox არის css-ის სისტემა,
+რომელიც გამოიყენება ელემენტების მარტივად და მოქნილად განლაგებისთვის. */
+
+#child{
+    width: 100px;
+    height: 100px;
+    background-color: #4f73d9;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+}

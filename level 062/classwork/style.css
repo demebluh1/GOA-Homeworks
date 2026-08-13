@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* transition არის сss-ის თვისება, რომლითაც შეგვიძლიათ გავუწეროთ დრო (წამები ან მილიწამები) და
+დრო რო გავა შეიცვლის სტილს, და ადგილს
+ */
+
+ /* transition-duration არის ცსს თვისება, რომელსაც გადავცემთ დროს, და დრო რო 
+ გავა, მოხდება მდგომარეობის შეცვლა
+ */
+
+ /* transition-delay არის თვისება რომელსაც გადავცემთ დროს და დრო რო გავა მერე მოხდება ელემენტის შეცვლა */
+
+ /* transition-property არის თვისება რომელითაც შეგვიძლია ელემენტს შევუცვალოთ კონკრეტული თვისება */
+ 
+ /* transition-timing-function განსაზღვრავს თუ რა სიჩქარით და როგორ სტილში 
+შეიცვლება ელემენტის transition ან animation. */
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#0f172a;
+}
+
+#myDiv{
+   width:150px;
+   height:150px;
+   background-color: bisque;
+   border-radius: 50%;
+   position: relative;
+   left: 0;
+   transition: 5s ease-in-out all ;
+   transition-delay: 5s;
+}
+
+#myDiv:hover {
+    left: 300px;
+}

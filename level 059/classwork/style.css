@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#parent{
+    display: flex;
+    gap: 12px;
+}
+
+
+#child1 {
+    width: 500px;
+    height: 500px;
+    background-image: url("https://img.freepik.com/free-photo/lavender-field-sunset-near-valensole_268835-3910.jpg?semt=ais_hybrid&w=740&q=80");
+    background-size: 2000px 2000px;
+    background-repeat: repeat-y;
+}
+
+#child2 {
+    width: 1920px;
+    height: 1080px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB8HMfqkq19JFctyJH8B5ssi3BWKfyuP9KPA&s");
+    background-size: cover;
+    background-position: center;
+
+}
+
+#child3 {
+    width: 400px;
+    height: 300px;
+    background-image: url("https://scontent.fkut1-1.fna.fbcdn.net/v/t39.30808-1/473801313_8921769074585951_2428163049335763725_n.jpg?stp=c292.0.1463.1463a_dst-jpg_s200x200_tt6&_nc_cat=101&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=5D2WtD7nISAQ7kNvwFu3LGG&_nc_oc=AdqS-c8fF_89Q_B_cqjSqFsSW5kSH_SJCBJfSDoYQVPVzPyD8Zk6ohr-DhJMKh99bsePpvqbvUxwL_H2aojmk2K1&_nc_zt=24&_nc_ht=scontent.fkut1-1.fna&_nc_gid=qDzOY7OucvJ-iMqSoQlTTw&_nc_ss=7b2a8&oh=00_Af17cSDD1NGxGxC-NVzx8flp_DFSCkkuMqsz516jwU9HWA&oe=69F43208");
+    background-position: center;
+    background-repeat: no-repeat;
+}
