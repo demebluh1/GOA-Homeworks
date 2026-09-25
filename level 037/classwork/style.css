@@ -1,0 +1,61 @@
+/* N1 */
+/* 
+class selector არის CSS სელექტორი, რომელიც გამოიყენება ერთზე მეტ HTML ელემენტზე ერთნაირი სტილების მისანიჭებლად.
+ვიყენებთ მაშინ, როცა გვინდა რამდენიმე ელემენტს ერთდროულად ქონდეს ერთი და იგივე სტილი.
+class selector იწერება წერტილით (.)
+*/
+
+/* 
+id selector არის CSS სელექტორი, რომელიც გამოიყენება მხოლოდ ერთ კონკრეტულ HTML ელემენტზე.
+მას აქვს უნიკალური მნიშვნელობა და ერთ გვერდზე ერთი და იგივე id ორჯერ არ უნდა განმეორდეს.
+id selector იწერება დიეზით (#)
+*/
+
+/* N2 */
+/* 
+class selector გამოიყენება რამდენიმე ელემენტზე ერთნაირი სტილის მისანიჭებლად
+და იწერება წერტილით (.).
+
+id selector გამოიყენება მხოლოდ ერთ, უნიკალურ ელემენტზე
+და იწერება დიეზით (#).
+*/
+
+/* N3 */
+/* tag selector — ყველა h1 */
+h1 {
+    color: white;
+    background-color: black;
+}
+
+/* class selector — პირველი 4 h1 */
+.group {
+    color: blue;
+    background-color: lightgray;
+}
+
+/* id selector — მხოლოდ მე-5 h1 */
+#unique {
+    color: red;
+    background-color: yellow;
+}
+
+
+/* N4 */
+/* tag selector — ყველა div */
+div {
+    width: 200px;
+    height: 100px;
+    background-color: lightgray;
+}
+
+/* class selector */
+.box {
+    background-color: lightblue;
+    border: 2px solid blue;
+}
+
+/* id selector */
+#uniqueBox {
+    background-color: lightcoral;
+    border: 3px dashed red;
+}

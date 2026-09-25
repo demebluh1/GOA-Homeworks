@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.child {
+    height: 100px;
+    width: 100px;
+    background-color:#74C247 ;
+    border: 2px #52A7F9 dotted;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#parent {
+    display: grid;
+    grid-template-columns: repeat(4, 100px) ;
+    grid-template-rows: repeat(2, 100px)  ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

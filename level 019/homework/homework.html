@@ -1,0 +1,41 @@
+<!-- N1 -->
+<!-- video tag-ით შეგვილია შემოვიტანოთ ნებისმიერი ვიდეო ჩვენს საიტზე რომელიც არის MP4 --> 
+<!-- audio tag-ის  მეშვეობით შემოვიტანთ ნებისმიერ აუდიოს ჩვენს საიტზე რომელიც არის MP3  -->
+<!-- source tag-ის მეშვეობით შეგვილია შემოვიტანოთ ლინკები, ვიდეობი და აუდიოები ფაილის მეშვეობით! -->
+<!-- <source> ტეგში type ატრიბუტი მიუთითებს ვიდეოფაილის ფორმატს (MIME ტიპს),რათა ბრაუზერმა იცოდეს შეუძლია თუ არა მისი დაკვრა. -->
+
+<!-- N2 -->
+
+<!-- video tag-ში უნდა აუცილებლად ჩავსვათ sources tag-ი და ასევე sources თეგის გამსხნელ ადგილში უნდა ჩავსვათ src = "აქ უნდა მოვათავსოთ ვიდეოს ფაილი" 
+და type = "აქ უნდა მოვათავსოთ ვიდეოს ფორმატი"
+ასევე არსებობს ფუნქცია რომელსაც autoplay ეწოდება და მის დახმარებით ვიდეო ავტომატურად იწყებს დაკვრას როცა საიტი იხსნება.
+    ასევე არსებობს ფუნქცია loop რომელიც ვიდეოს გაუჩერებლად ანუ უსასრულოდ აჩვენებს.
+    და height-ის მეშვეობით შეგვიძლია დავაპატარაოთ ან გავზარდოთ ვიდეოს ზომა.
+    ასევე არსებობს controls ფუნქცია რომელიც ვიდეოს ქვეშ აჩვენებს დაკვრის, დაპაუზის და გადმოწერის ღილაკს და ასევე ვიდეოს სიჩქარის რეგულირებას
+    და ხმაურის რეგულირებას.
+-->
+<html>
+    <head>
+        <title>Cars For sale</title>
+    </head>
+    <body>
+        <a href="./register.html">Register here</a>
+        <h1><strong>Latest Cars for sale</strong></h1>
+        <h2>BMW M8 Coupe</h2>
+        <video autoplay loop height="700">
+        <source src="./177338-857365403_large.mp4" type="video/mp4">
+        </video>
+        <br>
+        <h3><em>Price: €119,000</em></h3>
+        <a href="https://www.autoscout24.com/lst/bmw/m8/bt_coupe" target="_blank" >Buy Now!</a>
+        <br><br><br>
+        <h2>Audi R8 V10</h2>
+        <video autoplay loop muted height="400">
+            <source src="./5673623-hd_1920_1080_30fps.mp4" type="video/mp4">
+            <h3>€104,000</h3>
+            <a href="https://www.autoscout24.com/lst/audi/r8/ve_v10">Buy Now!</a>
+        </video>
+        <h3><em>€104,000</em></h3>
+            <a href="https://www.autoscout24.com/lst/audi/r8/ve_v10">Buy Now!</a>
+    </body>
+</html>

@@ -1,0 +1,26 @@
+
+#p{
+    text-decoration: wavy underline;
+}
+
+
+#p2{
+    text-transform: uppercase;
+}
+
+#p3{
+    color: red;
+    text-shadow: 1px 2px 3px blue ;
+}
+
+#myH1{
+    color: blue;
+    text-decoration: dotted underline overline line-through;
+    text-transform: lowercase;
+    text-shadow: 2px 4px 5px green;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+#customfont {
+    font-family: "Roboto Mono", monospace ;
+}

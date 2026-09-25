@@ -1,0 +1,23 @@
+/* 1) vh არის viewport height ეკრანის სიმაღლე
+   1vh არის ეკრანის სიმაღლის 1%
+   100vh არის ეკრანის სრული სიმაღლე  */
+
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.parent{
+   height: 100vh; 
+   display: flex; 
+   justify-content: center; 
+   align-items: center;
+}
+
+.child{
+   width: 250px;
+  height: 250px;
+  background-color: blue
+}

@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 1) Flexbox არის CSS-ის განლაგების სისტემა, რომელიც გამოიყენება ელემენტების მარტივად, მოქნილად და წესრიგიანად დასალაგებლად კონტეინერში */
+/* 2) Flex-grow-ს მეშვეობით მშობელ ელემენტში თავისუფალ დარჩენილ ადგილს შეავსებს შვილობილი ელემენტი */
+/* 3) Flex-shrink პირიქით დააპატარავებს */
+
+#parent{
+    width: 800px;
+    display: flex;
+}
+
+.child{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.child1{
+    flex-grow: 1;
+}

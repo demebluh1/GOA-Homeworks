@@ -1,0 +1,58 @@
+/* style.css */
+
+/*
+transform არის CSS თვისება,
+რომლის დახმარებითაც შეგვიძლია ელემენტის
+გადაადგილება, გადიდება, დახრა ან დატრიალება.
+
+transform გამოიყენება ანიმაციებისთვის,
+დიზაინის გასალამაზებლად და ელემენტების
+ვიზუალური ცვლილებისთვის.
+
+შესაძლო მნიშვნელობები:
+
+1) translate()  -> ელემენტის გადაადგილება
+2) scale()      -> ელემენტის ზომის შეცვლა
+3) rotate()     -> ელემენტის დატრიალება
+4) skew()       -> ელემენტის დახრა
+5) matrix()     -> რამდენიმე transform-ის ერთად გამოყენება
+*/
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 50px;
+    font-family: Arial, sans-serif;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: royalblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+/* 1) translate */
+.translate-box:hover{
+    transform: translate(200px, 150px);
+}
+
+/* 2) scale */
+.scale-box:hover{
+    transform: scale(2.5);
+}
+
+/* 3) skew */
+.skew-box:hover{
+    transform: skew(30deg, 45deg);
+}
+
+/* 4) rotate */
+.rotate-box:hover{
+    transform: rotate(125deg);
+}

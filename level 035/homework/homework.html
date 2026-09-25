@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Style inheritance ნიშნავს იმას, რომ მშობელ ელემენტზე მინიჭებული სტილი
+ავტომატურად გადაეცემა მის შიგნით არსებულ (შვილ) ელემენტებს,
+თუ ამ შვილ ელემენტებს თავიანთი სტილი არ აქვთ განსაზღვრული */
+
+        div {
+    color: blue;
+    }
+</style>
+<style>
+    div {
+    border: 3px solid black;           
+    background: linear-gradient(135deg, #1e90ff, #00ced1); 
+    color: white;                         
+    text-align: center;                   
+    width: 400px;
+                        
+    
+    
+    }
+
+</style>
+<style>
+    h1 i {
+        color: rgb(255, 0, 0);
+        background-color: #00ced1;
+    }
+</style>
+    </head>
+    <body>
+        <!-- N1 -->
+        <div>
+            <p>this text is blue</p>
+            <b>this text is blue too!</b>
+        </div>
+        <!-- N2 -->
+        <div>
+    <h2>ჩემი ერთი დღის რუტინა</h2>
+        <ol>
+            <li>გაღვიძება</li>
+            <li>დაბანა და კბილების გამოხეხვა</li>
+            <li>საუზმე</li>
+            <li>სკოლაში წასვლა</li>
+            <li>გაკვეთილები</li>
+            <li>სახლში დაბრუნება</li>
+            <li>დასვენება / თამაში</li>
+            <li>საშინაო დავალება</li>
+                <li>ვახშამი</li>
+                <li>ძილი</li>
+            </ol>
+        </div>
+        <!-- N3 -->
+        <h1><i>Hello, World!</i></h1>
+    </body>
+</html>

@@ -1,0 +1,47 @@
+#p1{
+    text-align: center;
+    text-decoration: line-through overline red;
+    font-size:  12px;
+    color: darkred;
+    background-color: darkgrey;
+}
+
+#p2{
+    text-align: left;  
+    text-decoration: dotted blue;
+    font-size: 15px;
+    color: darkblue;
+    background-color: chartreuse;
+}
+
+#p3{
+    text-align: right;
+    text-decoration: double green;
+    font-size: 20px;
+    color: blanchedalmond;
+    background-color: darkgoldenrod;
+}
+
+#p4{
+    text-align: start;
+    text-decoration: overline cyan;
+    font-size: 17px;
+    color: crimson;
+    background-color: coral;
+}
+
+#p5{
+    text-align: left;
+    text-decoration: solid blueviolet;
+    font-size: 16px;
+    color: chocolate;
+    background-color: darkcyan;
+}
+
+#p6{
+    text-align: right;
+    text-decoration: wavy brown;
+    font-size: 15px;
+    color: aqua;
+    background-color: deeppink;
+}
